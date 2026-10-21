@@ -1,0 +1,24 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "WWWToken",
+    "name": "www",
+    "symbol": "WWW",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {
+    "poolBps": 6000,
+    "initialMarketCapWei": "888000000000000000000",
+    "remainderTo": "0xee2aaa315cf7ed169f93148d30d24af9318dbb66"
+  },
+  "notes": "www (WWW): Stop window shopping. See everything first. X: @windowshoppermd. WWWToken is a plain OpenZeppelin ERC-20 named \"www\" with symbol \"WWW\" and 18 decimals. Its constructor takes no arguments and mints the fixed supply of 1,000,000,000 WWW (1e27 minor units) once to msg.sender, the launch factory. It has no owner, no administrative roles, no fees, burns or transfer restrictions, and no function that mints after deployment, so the launch flows (swarm share to the distributor, the pool seed through the PoolManager, the remainder, claims and swaps) move exactly the amounts they state. No application contracts are deployed with this launch."
+}
